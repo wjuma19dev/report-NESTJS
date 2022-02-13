@@ -1,0 +1,11 @@
+### Get users
+GET http://localhost:3000/auth
+
+### Create an user
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "user1@user.com",
+    "password": "123456"
+}
